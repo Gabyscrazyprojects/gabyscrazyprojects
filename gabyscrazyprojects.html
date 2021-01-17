@@ -1,0 +1,162 @@
+<!-- Esta es la pantalla de Home-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="logo.png">
+        <style>
+            body{
+                background-color: #121212;
+                color: #ffffff; 
+                font-family: 'Helvetica';}
+            header{
+                position: fixed; 
+                top: 0;
+                margin-top: 0px; 
+                width: 100%;
+                z-index: 2;
+            }
+            header img{
+                margin-left: 1%;
+            }
+            header a{
+                color:#ffffff;
+            }
+            a:hover{
+                color:#00FF00;
+            }
+            nav {float: right; 
+                margin-top: 1%; 
+                margin-right: 5%;
+                margin-left: 0px;
+            }
+            section{
+                margin-right: 10%;
+                margin-left: 10%;
+            }
+            .selected{ 
+                background: linear-gradient(45deg, #00FFFF, #00FF00);
+                border-radius: 10%;
+                color:  #121212;
+            }
+            header nav span {
+                padding: 1%;
+            }
+            header p{
+                display: inline;
+            }
+            header, footer {
+                background-color: #282828;
+                border: 1% solid #00FFFF;
+            }
+            footer{
+                bottom: 0;
+                padding-bottom: 1%;
+                padding-top: 1%;
+                width: 100%;
+                text-align: center;
+                margin-top: 5%;
+            }
+            h1{
+                margin-top: 5%;
+            }
+            .intro{
+                margin-top: 30%;
+            }
+            .intro p{
+                color: #B3B3B3;
+                height: 20%;
+            }
+            .intro img{
+                float: left;
+            }
+            .amore{
+                color:#00FFFF;
+            }
+            .TechUnicorn, .WorkingOn, .MoreAbout{
+                margin-top: 30%;
+                text-align: center;
+            }
+            .TechUnicorn p{
+                color: #B3B3B3;
+            }
+            figure {
+                float: right;
+            }
+            figcaption{
+                color: #B3B3B3;
+            }
+            .endquote{
+                text-align: center;
+                color:#00FFFF;
+                margin-top: 30%;
+            }
+            q{
+                font-style: italic;
+                margin-bottom: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="/Users/gabrielavallin/Desktop/GCPwebsite/gabyscrazyprojects.html"><img src="logo.png" alt="Gaby's Crazy Projects logo" width=5% height=5%></a>
+            <nav>
+            <p>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/gabyscrazyprojects.html" class="selected">Home</a>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/GCPCV.html">Curriculum</a>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/GCPPortfolio.html">Portfolio</a>
+                <a href="mailto:a01620191@itesm.mx">Contact</a>
+            </p>
+            </nav>
+        </header>
+        <main>
+        <img src="cover-min.png" alt="Gaby's Crazy Projects' cover photo" width=100%>
+        <section>
+            <article class="intro">
+                <img src="logo.png" alt="Gaby's Crazy Projects logo" width=20% height=20%>
+                <h2>Let me introduce myself.</h2>
+                <p>
+                    I am an Honors student majoring in Innovation and Development Engineering. 
+                    Currently doing my specialty in Prototyping and Advanced Fabrication. 
+                    Working half time as a design executive for the <a href="https://www.amore.mx" target="_blank" class="amore">Amore.mx</a> marketing firm. 
+                </p>
+            </article>
+            <article class="TechUnicorn">
+                <h2>"Tech Unicorn"</h2>
+                <p>The two words that describe me best are "Tech Unicorn", because I have the prototyping & engineering skills to make things work, and the art & design skills to make them look amazing! </p>
+                <img src="techunicorn.png" alt="Tech Unicorn picture" width=100% >
+            </article>
+            <article class="MoreAbout">
+                <h2>More about me</h2>
+                <img src="diagrama-01.png" alt="Diagram 1" width=40% height=40%>
+                <img src="diagrama-02.png" alt="Diagram 2" width=40% height=40%>
+            </article>
+            <article class="WorkingOn">
+                <h2>Currently working on...</h2>
+                <figure>
+                    <a href="/Users/gabrielavallin/Desktop/GCPwebsite/GCPCV.html"><img src="workingon-04.png" alt="Front-End Web Development Microsoft W3C Certification" width=40% height=40%></a>
+                    <figcaption>Front-End Web Development Microsoft & W3C Certification</figcaption>
+                </figure>
+                <figure>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/GCPCV.html"><img src="workingon-01.png" alt="UI/UX of an Innovation Funnel Software" width=40% height=40%></a>
+                <figcaption>UI/UX of an Innovation Funnel Software</figcaption>
+            </figure>
+            <figure>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/GCPCV.html"><img src="workingon-02.png" alt="Spectometry for Separation of Plastics" width=40% height=40%></a>
+                <figcaption>Spectometry for Separation of Plastics</figcaption>
+            </figure>
+            <figure>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/GCPCV.html"><img src="workingon-03.png" alt="Graphic Designer and Content Creator for Amore.mx Marketing Firm" width=40% height=40%></a>
+                <figcaption>Graphic Designer and Content Creator for Amore.mx Marketing Firm</figcaption>
+            </figure>
+            </article>
+        </section>
+        <section class="endquote"><q>Creativity is just intelligence having fun</q> <p>- Albert Einstein</p></section>
+        </main>
+        <footer>
+            <p>Website designed and developed by Gaby's Crazy Projects, Jan 2021.</p>
+            <a href="https://www.instagram.com/gabyscrazyprojects/" target="_blank"><img src="instagram.png" width=4% height=4%></a>
+            <a href="https://www.behance.net/gabrielvalln" target="_blank"><img src="behance.png" width=4% height=4%></a>
+        </footer>
+    </body>
+</html>
